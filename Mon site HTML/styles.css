@@ -1,0 +1,26 @@
+/* On commence par réinitialiser les marges par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pour centrer le contenu de la page */
+body, html {
+    height: 100%; /* On donne une hauteur complète à la page */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    font-family: Arial, sans-serif; /* Choix de police */
+}
+
+/* Style spécifique du titre */
+.content h1 {
+    font-size: 4rem; /* Taille du texte */
+    color: white; /* Couleur du texte */
+    background-color: #ff007f; /* Fond rose vif */
+    padding: 20px; /* Espacement autour du texte */
+    border-radius: 10px; /* Coins arrondis */
+    background-image: linear-gradient(45deg, #ff007f 25%, #ff66b2 25%, #ff66b2 50%, #ff007f 50%, #ff007f 75%, #ff66b2 75%, #ff66b2); /* Effet vichy */
+    background-size: 40px 40px; /* Taille du motif vichy */
+}
